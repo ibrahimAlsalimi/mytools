@@ -1,3 +1,4 @@
+-- deps: kitty ssysr
 -- pdfpick (kitty --class pdfpick)
 hl.window_rule({
     name = "pdfpick",

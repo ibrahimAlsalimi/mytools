@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# deps: fzf wl-copy notify-send setsid
 # Pick a file with fzf (searching from $HOME or $1) and copy its absolute path to the clipboard.
 cd "${1:-$HOME}" || exit 1
 sel=$(fzf --prompt 'copy path> ') || exit

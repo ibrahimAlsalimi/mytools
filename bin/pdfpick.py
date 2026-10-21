@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# deps: python3 mupdf-gl
 """pdfpick - a glow-style TUI that lists PDF files and opens the chosen one in mupdf-gl.
 
 Usage:
